@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // Required for React 17+ (new JSX runtime)
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+      "paths": {
+        "@/*": [
+            "./src/*"
+        ]
+      }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
