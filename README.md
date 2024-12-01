@@ -1,8 +1,14 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Weather App
+A web application that allows users to create, view, and delete cities, as well as view the current weather for any selected city. The weather details displayed include the current temperature, the temperature feels like, and the humidity.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Create New Cities: Add new cities to the list.
+View All Cities: See a list of all created cities.
+Delete Cities: Remove cities from the list.
+Weather Details for Selected City:
+View current temperature (e.g., 12°C).
+View what the temperature feels like (e.g., 15°C).
+View current humidity levels.
+View additional fields.
